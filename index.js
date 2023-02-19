@@ -1,1 +1,7 @@
-console.log(1+1+"1")
+function openMenu() {
+    document.body.classList += " menu--open"
+}
+
+function closeMenu() {
+    document.body.classList.remove('menu--open')
+}
