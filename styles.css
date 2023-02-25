@@ -52,7 +52,7 @@ p {
     margin: 0 auto;
 }
 
-.purple {
+.crimson {
     color: #A60F2D;
 }
 
@@ -155,7 +155,8 @@ li {
 /* LANDING */
 
 #landing {
-    background-color: rgba(166, 15, 45, 0.1);
+    /* background-color: #a60f2d1a; */
+    background-color: #fff;
 }
 
 header {
@@ -232,6 +233,7 @@ button:active {
 
 #highlights {
     position: relative;
+    background-color: #edc1ca;
 }
 
 #highlights::before,
@@ -277,6 +279,8 @@ button:active {
 }
 
 .highlight__img {
+    /* border: 2px solid #a60f2d76;
+    color: #A60F2D; */
     border: 2px solid #a60f2d76;
     color: #A60F2D;
     width: 100px;
@@ -299,7 +303,8 @@ button:active {
 
 #featured {
     padding-top: 8vw;
-    background-color: rgba(166, 15, 45, 0.1);
+    /* background-color: #a60f2d1a; */
+    background-color: #fff;
 }
 
 .books {
@@ -340,19 +345,25 @@ button:active {
 
 .book__ratings {
     margin-bottom: 8px;
-    color: #fabf2a;
+    color: #ffffff;
 }
 
 .book__price--normal {
     text-decoration: line-through;
     padding-right: 6px;
-    color: #bfbfbf;
+    color: #A60F2D;
 }
 
+/* LATEST */
+
+#latest {
+    background-color: #edc1ca;
+}
 /* EXPLORE */
 
 #explore {
-    background-color: rgba(166, 15, 45, 0.1);
+    /* background-color: #a60f2d1a; */
+    background-color: #fff;
 }
 
 /* FOOTER */
