@@ -53,7 +53,7 @@ p {
 }
 
 .purple {
-    color: #7342d6;
+    color: #A60F2D;
 }
 
 .logo {
@@ -72,7 +72,7 @@ li {
     margin-left: 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #7342d6;
+    color: #A60F2D;
     font-weight: bold;
     padding: 8px;
 }
@@ -82,7 +82,7 @@ li {
 }
 
 .nav__link--primary {
-    border: 2px solid #7342d6;
+    border: 2px solid #A60F2D;
     border-radius: 4px;
 }
 
@@ -95,7 +95,7 @@ li {
     font-size: 40px;
     text-align: center;
     border: none;
-    color: #7342d6;
+    color: #A60F2D;
     display: none;
 }
 
@@ -155,7 +155,7 @@ li {
 /* LANDING */
 
 #landing {
-    background-color: rgba(115, 66, 214, 0.1);
+    background-color: rgba(166, 15, 45, 0.1);
 }
 
 header {
@@ -180,7 +180,7 @@ header {
 
 h1 {
     font-size: 56px;
-    color: #7342d6;
+    color: #A60F2D;
     margin-bottom: 24px;
     text-align: center;
 }
@@ -200,7 +200,7 @@ button:active {
 }
 
 .btn {
-    background-color: #7342d6;
+    background-color: #A60F2D;
     color: white;
     padding: 12px 24px;
     font-size: 20px;
@@ -277,8 +277,8 @@ button:active {
 }
 
 .highlight__img {
-    border: 2px solid #7342d65d;
-    color: #7342d6;
+    border: 2px solid #a60f2d76;
+    color: #A60F2D;
     width: 100px;
     height: 100px;
     display: flex;
@@ -299,7 +299,7 @@ button:active {
 
 #featured {
     padding-top: 8vw;
-    background-color: rgba(115, 66, 214, 0.1);
+    background-color: rgba(166, 15, 45, 0.1);
 }
 
 .books {
@@ -352,7 +352,7 @@ button:active {
 /* EXPLORE */
 
 #explore {
-    background-color: rgba(115, 66, 214, 0.1);
+    background-color: rgba(166, 15, 45, 0.1);
 }
 
 /* FOOTER */
