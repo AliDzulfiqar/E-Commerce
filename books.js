@@ -1,8 +1,19 @@
-function renderBooks() {
+function renderBooks(filter) {
   const booksWrapper = document.querySelector(".books");
 
   const books = getBooks();
 
+  if(filter === 'LOW_TO_HIGH'){
+    books.sort((a,b) => a.originalPrice - b.originalPrice);
+  }
+  if(filter === 'HIGH_TO_LOW'){
+    books.sort((a,b) => b.originalPrice - a.originalPrice);
+  }
+  if(filter === 'RATING') {
+    books.sort((a,b) => a.rating - b.rating);
+  }
+
+  
   const booksHTML = books.map(book => {
     return `<div class="book">
     <figure class="book__img--wrapper">
@@ -24,12 +35,17 @@ function renderBooks() {
     </div>`;
   }).join("");
 
-
   booksWrapper.innerHTML = booksHTML;
 }
+
 setTimeout(() => {
   renderBooks();
 });
+
+function filterBooks(event) {
+  renderBooks(event.target.value);
+}
+
 
 // FAKE DATA
 function getBooks() {
