@@ -342,7 +342,7 @@ button:active {
 
 .book__ratings {
   margin-bottom: 8px;
-  color: #ffffff;
+  color: #242424;
 }
 
 .book__price--normal {
@@ -436,7 +436,7 @@ footer {
 
 /* BOOKS PAGE */
 #books__body {
-  background-color: #edc1ca;
+  /* background-color: #edc1ca; */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
