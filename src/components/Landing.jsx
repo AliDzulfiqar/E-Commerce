@@ -11,9 +11,9 @@ const Landing = () => {
             <h2>
               Find your dream book with <span className="crimson">Library</span>
             </h2>
-            <a href="#featured">
+            <Link to="#featured">
               <button className="btn">Browse Books</button>
-            </a>
+            </Link>
           </div>
           <figure className="header__img--wrapper">
             <img src={UndrawBooks} alt="" />

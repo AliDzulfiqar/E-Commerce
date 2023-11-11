@@ -18,9 +18,9 @@
       <div class="nav__container">
         <img class="logo" src="assets/Library.svg" alt="">
         <ul class="nav__links">
-          <li><a href="./index.html" class="nav__link">Home</a></li>
-          <li><a href="#" class="nav__link">Contact</a></li>
-          <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
+          <li><Link to="./index.html" class="nav__link">Home</a></li>
+          <li><Link to="#" class="nav__link">Contact</a></li>
+          <li><Link to="#" class="nav__link nav__link--primary">Books</a></li>
         </ul>
         <button class="btn__menu" onclick="openMenu()">
           <i class="fas fa-bars"></i>
@@ -31,10 +31,10 @@
           </button>
           <ul class="menu__links">
             <li class="menu__list">
-              <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+              <Link to="#" class="menu__link" onclick="closeMenu()">Home</a>
             </li>
             <li class="menu__list">
-              <a href="#features" class="menu__link" onclick="closeMenu()">Books</a>
+              <Link to="#features" class="menu__link" onclick="closeMenu()">Books</a>
             </li>
             <li class="menu__list">
               <a class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
@@ -71,15 +71,15 @@
   <footer>
     <div class="container">
       <div class="row row__column">
-        <a href="#">
+        <Link to="#">
           <figure class="footer__logo">
             <img src="assets/Library.svg" class="footer__logo--img" alt="">
           </figure>
         </a>
         <div class="footer__list">
-          <a href="#" class="footer__link">Home</a>
+          <Link to="#" class="footer__link">Home</a>
           <a class="footer__link no-cursor">About</a>
-          <a href="#features" class="footer__link">Books</a>
+          <Link to="#features" class="footer__link">Books</a>
           <a class="footer__link no-cursor">Contact</a>
         </div>
         <div class="footer__copyright">Copyright &copy; 2021 Library</div>

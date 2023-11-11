@@ -15,9 +15,9 @@
             <div class="nav__container">
                 <img class="logo" src="./assets/Library.svg" alt="">
                 <ul class="nav__links">
-                    <li><a href="#" class="nav__link">Home</a></li>
-                    <li><a href="#" class="nav__link">Contact</a></li>
-                    <li><a href="./books.html" class="nav__link nav__link--primary">Books</a></li>
+                    <li><Link to="#" class="nav__link">Home</a></li>
+                    <li><Link to="#" class="nav__link">Contact</a></li>
+                    <li><Link to="./books.html" class="nav__link nav__link--primary">Books</a></li>
                 </ul>
             <button class="btn__menu" onclick="openMenu()">
                 <i class="fas fa-bars"></i>
@@ -28,13 +28,13 @@
                 </button>
                 <ul class="menu__links">
                     <li class="menu__list">
-                        <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+                        <Link to="#" class="menu__link" onclick="closeMenu()">Home</a>
                     </li>
                     <li class="menu__list">
-                        <a href="#featured" class="menu__link" onclick="closeMenu()">Books</a>
+                        <Link to="#featured" class="menu__link" onclick="closeMenu()">Books</a>
                     </li>
                     <li class="menu__list">
-                        <a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
+                        <Link to="#" class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
                 <div class="header__description">
                     <h1>Indonesia's most awarded online library platform</h1>
                     <h2>Find your dream book with <span class="crimson">Library</span></h2>
-                    <a href="#featured">
+                    <Link to="#featured">
                         <button class="btn">Browse Books</button>
                     </a>
                 </div>
@@ -351,7 +351,7 @@
                         <h2 class="section__title">
                             Explore more <span class="crimson">Books</span>
                         </h2>
-                        <a href="./books.html">
+                        <Link to="./books.html">
                             <button class="btn">Browse Books</button>
                         </a>
                     </div>
@@ -363,16 +363,16 @@
     <footer>
         <div class="container">
             <div class="row row__column">
-                <a href="#">
+                <Link to="#">
                     <figure class="footer__logo">
                         <img src="./assets/Library.svg" class="footer__logo--img" alt="">
                     </figure>
                 </a>
                 <div class="footer__list">
-                    <a href="#" class="footer__link">Home</a>
-                    <a href="" class="footer__link no-cursor">About</a>
-                    <a href="#" class="footer__link">Books</a>
-                    <a href="" class="footer__link no-cursor">Contact</a>
+                    <Link to="#" class="footer__link">Home</a>
+                    <Link to="" class="footer__link no-cursor">About</a>
+                    <Link to="#" class="footer__link">Books</a>
+                    <Link to="" class="footer__link no-cursor">Contact</a>
                 </div>
                 <div class="footer__copyright">Copyright &copy; 2021 library</div>
             </div>

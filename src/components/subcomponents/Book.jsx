@@ -4,15 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Book = ({ book }) => {
   return (
     <div className="book">
-      <a href="">
+      <Link to="">
       <figure className="book__img--wrapper">
         <img className="book__img" src={book.url} alt="" />
       </figure>
-      </a>
+      </Link>
       <div className="book__title">
-        <a href="/" className="book__title--link">
+        <Link to="/" className="book__title--link">
           {book.title}
-        </a>
+        </Link>
       </div>
       <div className="book__ratings">
         {
